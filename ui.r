@@ -23,7 +23,7 @@ sidebarLayout(position="right",
 		sliderInput("annual.inf.std.dev", "Inflation Volatility (annual %):", min = 0.0, max = 5.0, value = 1.5, step = 0.05),
 		sliderInput("monthly.withdrawals", "Monthly Capital Withdrawals:", min = 0, max = 100000, value = 10000, step = 1000, format="$#,##0", locale="us",),
 		sliderInput("n.sim", "Number of Simulations:", min = 0, max = 2000, value = 200),
-		helpText("Idea and original code by Pierre Chretien, updated by Michael Kapler, and then Lin Crampton. Source at https://github.com/lincrampton/time2retire. Comments/complaints to lin.crampton@gmail.com") 
+		helpText(" Source at https://github.com/apoorvsa22/dataproducts. Comments/complaints to apoorvsarawat007@gmail.com") 
 	), #sidebarPanel
 
 	mainPanel( 
