@@ -99,7 +99,7 @@ shinyServer(function(input, output) {
 	Retirement=cbind(ageVecYears,Retirement)
 	#output$documentationText = renderText({"Adjust the slider bars to reflect the retirement scenario you wish to simulate."})
 	output$documentationText = renderText({'... projecting retirement assets over time ...\n'})
-	output$sourceText = renderText({"Idea and original code by Pierre Chretien, updated by Michael Kapler, and then Lin Crampton. Source at https://github.com/lincrampton/time2retire. Comments/complaints to lin.crampton@gmail.com"})
+	output$sourceText = renderText({" Source at https://github.com/apoorvsa22/dataproducts. Comments/complaints to apoorvsarawat007@gmail.com"})
 	return(Retirement)
   })
   
